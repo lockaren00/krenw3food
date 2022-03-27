@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div id="header" class="header">
+            <nav class="header__navbar">
+                <a href="#" class="header__navbar-link">Gourmet au Catering</a>
+                <label for="mobile-menu-checkbox" class="mobile-menu-btn js-menu-btn">
+                    <i class="mobile-menu-icon fa-solid fa-bars"></i>
+                </label>
+                <ul class="header__navbar-list">
+                    <li for="mobile-menu-checkbox" class="header__navbar-item">
+                            <a for="mobile-menu-checkbox" href="#about" class="header__navbar-link">About</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#menu" class="header__navbar-link">Menu</a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="#contact" class="header__navbar-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="slider" style="background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);"> 
+            <h2 class="slider__name">
+                Le Catering
+            </h2>
+        </div>
+
+        <div class="content">
+            <div class="grid wide">
+                <div id="about" class="row no-gutters app-content">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="content__section">
+                            <div class="content__section-img" style="background-image: url(./assets/img/Table\ Setting.jpg);"></div>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="content__section">
+                            <h3 class="content__section-heading">About Catering</h3>
+                            <span class="content__section-sub-heading">Tradition since 1889</span>
+                            <span class="content__about-desc">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="content__about-sub-desc">seasonal</span> ingredients.</span>
+                            <span class="content__about-desc content__about-desc-2">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div id="menu" class="row no-gutters">
+                    <div class="col l-6 m-12 c-12">
+                        <div class="content__section">
+                            <h3 class="content__section-heading">Our Menu</h3>
+                            <span class="font-20 text-left content__section-sub-heading">Bread Basket</span>
+                            <span class="font-15 text-left content__about-desc content__about-desc-2">Assortment of fresh baked fruit breads and muffins 5.50</span>
+                            <span class="font-20 text-left content__section-sub-heading">Honey Almond Granola with Fruits</span>
+                            <span class="font-15 text-left content__about-desc content__about-desc-2">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</span>
+                            <span class="font-20 text-left content__section-sub-heading">Belgian Waffle</span>
+                            <span class="font-15 text-left content__about-desc content__about-desc-2">Vanilla flavored batter with malted flour 7.50</span>
+                            <span class="font-20 text-left content__section-sub-heading">Scrambled eggs</span>
+                            <span class="font-15 text-left content__about-desc content__about-desc-2">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</span>
+                            <span class="font-20 text-left content__section-sub-heading">Blueberry Pancakes</span>
+                            <span class="font-15 text-left content__about-desc content__about-desc-2">With syrup, butter and lots of berries 8.50</span>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="content__section">
+                            <div class="content__section-img-2" style="background-image: url(./assets/img/Menu.jpg);"></div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div id="contact" class="row no-gutters">
+                    <div class="content__section">
+                        <h3 class="content__section-heading text-left">Contact</h3>
+                        <span class="section-desc">We offer full-service catering for any event,large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</span>
+                        <span class="section-desc-ny">Catering Service, 42nd Living St, 43043 New York, NY</span>
+                        <span class="section-desc">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</span>
+    
+                        <form action="" class="contact__form">
+                            <div class="contact__form-group">
+                                <input required type="text" name="" id="" class="contact__form-input" placeholder="Name">
+                            </div>
+                            <div class="contact__form-group">
+                                <input required type="text" name="" id="" class="contact__form-input" placeholder="How many people">
+                            </div>
+                            <div class="contact__form-group">
+                                <input required type="datetime-local" name="" id="" class="contact__form-input" value="2022-03-26T19:30" placeholder="Name">
+                            </div>
+                            <div class="contact__form-group">
+                                <input required type="text" name="" id="" class="contact__form-input" placeholder="Message \ Special requirements">
+                            </div>
+    
+                            <input type="submit" value="SEND MESSAGE" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span>
+                Dương Minh Lộc <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+            </span>
+        </div>
+    </div>
+
+    <script>
+        var menuBtn = document.querySelector('.js-menu-btn')
+        var menuItems = document.querySelectorAll('.header__navbar-link')
+        var header = document.getElementById('header')
+        var headerHeight = header.clientHeight
+        
+        menuBtn.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight
+            if(isClosed) {
+                header.style.height = 'auto'
+            }else {
+                header.style.height = null
+            }
+        }
+
+        for(var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i]
+            menuItem.onclick = function() {
+                header.style.height = null
+            }
+        }
+    </script>
+</body>
+</html>
