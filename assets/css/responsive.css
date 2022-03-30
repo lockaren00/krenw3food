@@ -30,13 +30,10 @@
         display: none;
     }
 
-    .header {
-        overflow: hidden;
-    }
-
     .header__navbar {
         display: block;
         padding: 0;
+        overflow: hidden;
     }
 
     .header__navbar > .header__navbar-link {
